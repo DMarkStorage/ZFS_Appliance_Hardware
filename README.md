@@ -6,8 +6,6 @@ This program requests data from `ZFS Storage appliance`. This is basically plumb
 so you should have at least a basic understanding of what those commands do.
 
 ## USAGE
-`Hardware_chassis.py` will show you the Chassis informations available on the storage. 
-    (e.g. Name, chassis status, Manufacturer, Model)
 
 `Hardware_Details.py` will show you the informations available on the storage like 
     - Hardware Updates
@@ -46,20 +44,6 @@ Check [install docopt](https://pypi.org/project/docopt/) for more information
 ## Run the program
 
 ```
-- Hardware_chassis.py
-# Show Chassis information
-    - Hardware_chassis.py -s <STORAGE> -d 
-
-# Show Chassis information and Create csv file with the data from the storage
-    - Hardware_chassis.py -s <STORAGE> -d --csv <FILENAME>
-
-# Show Chassis information and Create csv and json  file with the data from the storage
-	- Hardware_chassis.py -s <STORAGE> -d --csv <FILENAME> --json <JSON_FN>
-  
-  *<STORAGE> - your zfs storage appliance
-
-# Show options
-    python -h || --help
 
 - Hardware_Details.py
 # Show Hardware information
